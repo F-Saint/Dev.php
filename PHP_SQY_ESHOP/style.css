@@ -1,0 +1,97 @@
+/* MAIN STYLES */
+
+body {
+    color: rgb(255, 255, 255);
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(0, 0, 0);
+}
+/* NAVIGATION */
+
+nav {
+    position: fixed;
+    width: 100%;
+    /* From https://css.glass */
+background: rgb(255, 200, 0);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(2.6px);
+-webkit-backdrop-filter: blur(2.6px);
+}
+
+nav ul li {
+    list-style-type: none;;
+}
+
+nav ul {
+    display: flex;
+    justify-content: end;
+}
+
+nav a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+    
+.logo {
+    width: 25rem;
+    height: 25rem;
+}
+ 
+.wrapper {
+    color:rgb(255, 200, 0);
+    height: 70vh;
+    padding-top: 5rem;
+}
+ 
+.wrapper h1{
+    font-family: 'RedHat', sans-serif;
+    margin:0;
+    text-align: center;
+}
+ 
+.wrapper img{
+    margin-top: 2rem;
+   
+}
+
+.product-list {
+    margin-top: 2rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 3rem;
+    row-gap: 2rem;
+}
+.imgproduct{
+    height: 20rem;
+    width: 20rem;
+}
+
+.monproduit{
+background-color: rgb(255, 255, 255);
+border-radius: 30px;
+padding: 1rem;
+margin-top: 1rem;
+margin-bottom: 1rem;
+color: rgb(0, 0, 0);
+font-size: 1.5rem;
+font-family: 'RedHat', sans-serif;
+cursor: pointer;
+transition: all 0.3s ease-in-out;
+
+}
+
+button{
+    background-color: rgb(255, 200, 0);
+    border-radius: 50px;
+    border: none;
+    padding: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    color: rgb(0, 0, 0);
+    font-family: 'RedHat', sans-serif;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
